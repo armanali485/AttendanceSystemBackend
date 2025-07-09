@@ -30,7 +30,7 @@ mongoose.connect(dbConnectionStr, {
 
 // ------------------ CORS Configuration ------------------
 app.use(cors({
-  origin: ["http://localhost:4200", "https://attendanceSystem485.netlify.app"], // Frontend URLs
+  origin: ["http://localhost:4200", "https://attendancesystem485.netlify.app"], // Frontend URLs
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   allowedHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept", "Authorization"],
   credentials: true
